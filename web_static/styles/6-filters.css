@@ -1,9 +1,9 @@
 section.filter{
     display: grid;
     grid-template-columns: 25% 25% 1fr 20%;
+    grid-template-rows: 70px;
     align-items: center;
     background-color: white;
-    height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
@@ -36,6 +36,23 @@ section.filter h3, section.filter h4{
 section.filter .locations{
     border-right: 1px solid #DDD;
 }
-section.filter .locations .popover{
-    /*display: none;*/
+
+
+.popover{
+    display: none;
+    border: 1px solid #DDDDDD;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.popover h2{
+    font-size: 16px;
+}
+
+div.locations:hover ul.popover,
+div.amenities:hover ul.popover {
+    display: grid;
+    list-style: none;
+    margin-top: 15px;
 }
