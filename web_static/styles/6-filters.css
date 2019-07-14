@@ -52,7 +52,8 @@ section.filter .locations{
 
 div.locations:hover ul.popover,
 div.amenities:hover ul.popover {
-    display: grid;
+    display: block;
     list-style: none;
-    margin-top: 15px;
+    position: relative;
+    top: 15px;
 }
