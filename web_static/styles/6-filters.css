@@ -25,7 +25,7 @@ section.filter{
     cursor: pointer;
 }
 
-section.filter .locations, section.filter .amenities{
+section.filter .locations, section.filter .amenitie{
     height: 100%;
 }
 
@@ -51,7 +51,7 @@ section.filter .locations{
 }
 
 div.locations:hover ul.popover,
-div.amenities:hover ul.popover {
+div.amenitie:hover ul.popover {
     display: block;
     list-style: none;
     position: relative;
