@@ -140,3 +140,18 @@ article .reviews p{
 article .reviews h3{
     margin: 20px 0 0 0;
 }
+
+@media screen and (max-width: 450px) {
+    .places article .aside-nplace{
+        display: none;
+    }
+    .places article .price_by_night{
+        width: 50px;
+        height: 50px;
+        padding: auto;
+    }
+
+    .places article h2{
+        font-size: 18px;
+    }
+}

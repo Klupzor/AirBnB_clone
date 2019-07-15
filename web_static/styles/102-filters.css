@@ -69,3 +69,19 @@ div.amenitie:hover ul.popover {
         margin-right: 10px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    section.filter{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        border-right: 0;
+        border-left: 0;
+    }
+    .filter button{
+        grid-column: auto;
+        margin-right: 0;
+        margin-top: 15px;
+        width: 80%;
+        justify-self: center;
+    }
+}
